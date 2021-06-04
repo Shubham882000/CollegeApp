@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">CollegeApp</string>
+
+    <string-array name="clgname">
+        <item>College Name</item>
+        <item>SCOE</item>
+        <item>SKN</item>
+        <item>NBN  </item>
+        <item>SAE</item>
+        <item>SITS</item>
+        <item>SIT</item>
+        <item>RMD</item>
+    </string-array>
+    <string-array name="brname">
+        <item>Branch Name</item>
+        <item>Mech</item>
+        <item>Civil</item>
+        <item>E_TC</item>
+        <item>IT</item>
+        <item>Comp</item>
+        <item>Meta</item>
+        <item>DDGM</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="stname">
+        <item>Select State</item>
+    </string-array>
+    <string-array name="adtype">
+        <item>Admission Type</item>
+    </string-array>
+    <string-array name="ctype">
+        <item>Select Category</item>
+    </string-array>
+    <string-array name="ayear">
+        <item>Academic year</item>
+        <item>2021</item>
+    </string-array>
+    <string-array name="cyear">
+        <item>Select class</item>
+        <item>TE</item>
+    </string-array>
+
 </resources>
