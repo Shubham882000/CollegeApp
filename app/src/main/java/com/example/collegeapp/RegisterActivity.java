@@ -135,7 +135,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     // data save
-    private void savedata(String text_name, String txt_gender, String text_email, String txt_clgid, String txt_dob, String txt_mno, String text_password) {
+    private void savedata(String text_name, String text_email, String txt_clgid, String txt_dob, String txt_gender, String txt_mno, String text_password) {
         Map<String,String> name_of_the_student=new HashMap<>();
         name_of_the_student.put("Name",text_name);
         name_of_the_student.put("Email",text_email);

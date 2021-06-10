@@ -79,7 +79,7 @@ public class RegisterActivity1 extends AppCompatActivity {
         name_of_the_student.put("class",text_class );
 
 
-        fstore.collection("user").add(name_of_the_student).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+        fstore.collection("user1").add(name_of_the_student).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
             public void onSuccess(DocumentReference documentReference) {
                 Toast.makeText(RegisterActivity1.this, " data save", Toast.LENGTH_SHORT).show();
